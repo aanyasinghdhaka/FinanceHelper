@@ -1,3 +1,1 @@
-#!/bin/bash
-exec hypercorn app:app --bind 0.0.0.0:10000
-
+hypercorn app:app --bind 0.0.0.0:10000
